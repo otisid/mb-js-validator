@@ -1,7 +1,7 @@
-// validates Croatian Business Registry Number (MBS)
-function validateMBS(mbsCode) {
+// validates Croatian Business Registry Number (MB)
+function validateMB(mbCode) {
     // just in case
-    var code = mbsCode.toString();
+    var code = mbCode.toString();
 
     var codeLength = code.length;
     var res = '';
@@ -48,6 +48,3 @@ function validateMBS(mbsCode) {
 
     return res;
 }
-
-var test = 01130234;
-validateMBS(test);
