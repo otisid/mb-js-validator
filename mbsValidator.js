@@ -17,9 +17,6 @@ function validateMBS(mbsCode) {
             return false;
     }
     
-    if (codeLength != 8 )
-        return false;
-
     if (isNaN(code))
         return false;
 
