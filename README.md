@@ -1,5 +1,5 @@
 # mb-js-validator
-Simple JavaScript implementation of Croatian Business Registry Number (MB) validaton.
+Simple JavaScript implementation of Croatian Business Registry Number (MB) validation.
 
 If the MB is valid function returns 1, otherwise 0 (false).
 
